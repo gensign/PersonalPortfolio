@@ -25,7 +25,7 @@ class Main extends React.Component {
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -33,24 +33,11 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hello I am Grant Ensign.
+             {/* <a href="#work">How's it going?</a>. */}
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+
           </p>
           {close}
         </article>
@@ -59,14 +46,14 @@ class Main extends React.Component {
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
+          {/* <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
@@ -80,7 +67,7 @@ class Main extends React.Component {
             Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
-          </p>
+          </p> */}
           {close}
         </article>
 
@@ -88,7 +75,7 @@ class Main extends React.Component {
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -111,11 +98,11 @@ class Main extends React.Component {
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/gwepta2017@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -139,28 +126,12 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+              <a href="https://www.linkedin.com/in/grantwensign/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+              <a href="https://github.com/grizzlydude" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
