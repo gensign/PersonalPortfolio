@@ -1,8 +1,14 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import PropTypes from 'prop-types';
+import React from 'react';
+
+// my information
+import About from './About';
+import Intro from './Intro';
+import ProjectsWorkedOn from './ProjectsWorkedOn';
+
+import pic01 from '../images/pic01.jpg';
+import pic02 from '../images/pic02.jpg';
+import pic03 from '../images/pic03.jpg';
 
 class Main extends React.Component {
   render() {
@@ -29,16 +35,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <p>
-            Hello I am Grant Ensign.
-             {/* <a href="#work">How's it going?</a>. */}
-          </p>
-          <p>
-
-          </p>
+          <Intro />
           {close}
         </article>
 
@@ -50,24 +47,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          {/* <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p> */}
+          <ProjectsWorkedOn />
           {close}
         </article>
 
@@ -79,18 +59,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <About />
           {close}
         </article>
 
