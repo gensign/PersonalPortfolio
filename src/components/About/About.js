@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './About.css';
 
-import gradPicUAA from '../images/graduationPicature.png';
-import grantHoldingSkiies from '../images/holdingSkiiesChugiak.png';
+import gradPicUAA from '../../images/graduationPicature.png';
+import grantHoldingSkiies from '../../images/holdingSkiiesChugiak.png';
 
 export default class About extends Component {
     render() {
         return (
             <div>
-                <span className="image main">
-                    <img src={gradPicUAA} alt="" />
+                <span className="gradFromUAA">
+                    <img src={gradPicUAA} alt="Grant's Graducation Picture from UAA" />
                 </span>
 
                 <p>
@@ -16,8 +17,8 @@ export default class About extends Component {
                     I worked as a PTA for a while but then became interested in coding and decided to move from Alaska to Utah and go to DevMountain.
                 </p>
 
-                <span className="image main">
-                    <img src={grantHoldingSkiies} alt="" />
+                <span className="holdingSkiies">
+                    <img src={grantHoldingSkiies} alt="Grant Holding Cross Country Skiies" />
                 </span>
 
                 <p>

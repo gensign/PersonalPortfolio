@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-import grantHappyWhileSnowingPic from '../images/happyWhileSnowing.png';
+import grantHappyWhileSnowingPic from '../../images/happyWhileSnowing.png';
 
 
 export default class Intro extends Component {
     render() {
         return (
             <div>
-                <span className="image main">
+                <span className="happyWhileSnowing">
                     <img src={grantHappyWhileSnowingPic} alt="" />
                 </span>
                 <p>

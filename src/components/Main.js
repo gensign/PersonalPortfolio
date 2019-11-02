@@ -2,13 +2,10 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // my information
-import About from './About';
-import Intro from './Intro';
-import ProjectsWorkedOn from './ProjectsWorkedOn';
+import About from './About/About';
+import Intro from './Intro/Intro';
+import ProjectsWorkedOn from './ProjectsWorkedOn/ProjectsWorkedOn';
 
-import pic01 from '../images/pic01.jpg';
-import pic02 from '../images/pic02.jpg';
-import pic03 from '../images/pic03.jpg';
 
 class Main extends React.Component {
   render() {
