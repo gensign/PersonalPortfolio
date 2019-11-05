@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import hapwagonHomePagePic from '../../images/hapwagonHomePage.png';
-import learnsoapnotesPic from '../../images/learnSOAPNotesPic.png';
+// import learnsoapnotesPic from '../../images/learnSOAPNotesPic.png';
 
 export default class ProjectsWorkedOn extends Component {
     render() {
@@ -27,7 +27,7 @@ export default class ProjectsWorkedOn extends Component {
                     They are able to click on pick up or drop off to change the status of the car and get to a link that takes them to google maps with the customer’s address.
                     Then the final button the admin can select is the message button which takes them to the chat room where they can access any message the customer has left for them or they can chat with a user.
                 </p>
-                <span className="soapnote">
+                {/* <span className="soapnote">
                     <img src={learnsoapnotesPic} alt="" />
                 </span>
                 <h3>SOAP Notes Template</h3>
@@ -36,7 +36,7 @@ export default class ProjectsWorkedOn extends Component {
                 </p>
                 <p>
 
-                </p>
+                </p> */}
             </div>
         )
     }
